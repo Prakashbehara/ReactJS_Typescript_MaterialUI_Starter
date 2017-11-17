@@ -1,0 +1,13 @@
+{"namespace": "example.avro",
+ "type": "record",
+ "name": "User",
+ "fields": [
+     {"name": "name", "type": "string"},
+     {"name": "favoriteNumber",  "type": ["string", "null"]},
+     {"name": "favoriteColor", "type": ["string", "null"]},
+     {"name": "user", "type": ["string", "null"] },
+     {"name": "cycleDate", "type": ["long", "null"] },
+     {"name": "timeStamp", "type": ["long", "null"] },
+     {"name": "batchId", "type": ["string", "null"]}
+ ]
+}
